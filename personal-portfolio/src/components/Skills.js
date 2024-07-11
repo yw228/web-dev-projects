@@ -35,30 +35,56 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                        <p>I have 2 years of experience in software development and testing, specializing in web and cloud applications using Agile methodologies. Skilled in AWS services, database management, Cypress, Selenium, and CI/CD with Jenkins and GitHub. Proficient in Java, Node.js, Python, and C++, with knowledge in AI (DNNs), cryptographic algorithms, and server management. Experienced in web and mobile development (Vue, HTML, CSS, JavaScript, Flutter) and user-centric design. Familiar with Docker, JUnit, Mockito, Digital Ocean, REST APIs, and cyber security.</p>
+                        <Carousel responsive={responsive} infinite={true}
+                                  className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="Image"/>
                                 <h5>Web Development</h5>
+                                <h5>Vue,React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <img src={meter2} alt="Image"/>
+                                <h5>App Development</h5>
+                                <h5>Flutter</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <img src={meter1} alt="Image"/>
+                                <h5>Quality Assurance</h5>
+                                <h5>Cypress,Selenium,Jenkin</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={meter3} alt="Image"/>
+                                <h5>Java</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image"/>
+                                <h5>Python</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image"/>
+                                <h5>AWS</h5>
+                                <h5>S3, Lambda, DynamoDB, SQS, EC2</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image"/>
+                                <h5>DataBase</h5>
+                                <h5>OracleDB, MySQL, SQLite, MongoDB, Redis, Spark, Neo4J</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter2} alt="Image"/>
+                                <h5>AI</h5>
+                            </div>
+                            <div className="item">
+                            <img src={meter3} alt="Image"/>
+                                <h5>UI/UX</h5>
                             </div>
                         </Carousel>
                     </div>
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="Image"/>
     </section>
   )
 }
